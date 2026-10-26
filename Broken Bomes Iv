@@ -195,7 +195,7 @@ local lockedCFrame = nil
 local posLockConn = nil
 
 local Window = WindUI:CreateWindow({
-    Title = "SL HUB",
+    Title = "Serapha Hub",
     SubTitle = "Bone Breaker Edition",
     TabWidth = 160,
     Size = UDim2.fromOffset(580, 460),
