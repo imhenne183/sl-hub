@@ -199,7 +199,7 @@ local Window = WindUI:CreateWindow({
     SubTitle = "Bone Breaker Edition",
     TabWidth = 160,
     Size = UDim2.fromOffset(580, 460),
-    Folder = "HorizonHub",
+    Folder = "Serapha Hub",
     Theme = "Midnight",
     Themeable = { Background = false },
     HidePanelBackground = true,
@@ -208,7 +208,7 @@ local Window = WindUI:CreateWindow({
     Icon = "solar:shield-check-bold-duotone",
     Topbar = { Height = 44, ButtonsType = "Default" },
     OpenButton = {
-        Title = "SL HUB",
+        Title = "Serapha Hub",
         CornerRadius = UDim.new(1, 0),
         StrokeThickness = 2,
         Enabled = true,
@@ -1129,7 +1129,7 @@ HubGroup:Space()
 
 HubGroup:Button({
     Title = "Close Hub",
-    Desc = "Close the SL HUB window.",
+    Desc = "Close the Serapha Hub window.",
     Icon = "solar:close-circle-bold",
     IconColor = Red,
     Color = Red,
@@ -1147,4 +1147,4 @@ HubGroup:Button({
 Window:SetToggleKey(Enum.KeyCode.RightShift)
 
 task.wait(1)
-notify("SL HUB Loaded", "Welcome, " .. LocalPlayer.DisplayName .. "! Bone Breaker ready.", "solar:shield-check-bold", 5)
+notify("Serapha Hub Loaded", "Welcome, " .. LocalPlayer.DisplayName .. "! Bone Breaker ready.", "solar:shield-check-bold", 5)
